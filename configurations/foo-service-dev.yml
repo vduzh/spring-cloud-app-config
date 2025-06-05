@@ -1,1 +1,2 @@
-
+my:
+  property: Hello from dev config of foo-service!
