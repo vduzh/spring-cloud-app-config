@@ -1,1 +1,2 @@
-
+my:
+  property: Hello from prod config of foo-service!
