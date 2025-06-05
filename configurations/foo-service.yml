@@ -1,1 +1,2 @@
-
+my:
+property: Hello from default config of foo-service!
