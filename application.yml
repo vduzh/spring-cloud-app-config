@@ -1,2 +1,15 @@
+# Обычно глобальные настройки, применяемые ко всем приложениям, если они не переопределены
+# - Общие настройки логирования
+# - Общие настройки для Eureka Server
+# - Настройки для общих компонентов, используемых всеми сервисами (например, брокеры сообщений, централизованные системы логирования)
+# - Базовые настройки Spring Boot Actuator.
+# - и т.д.
+
+app:
+  title: This is Spring Cloud Application at the DEFAULT env
+  timeout: 5000
+  db:
+    url: jdbc:mysql://common-db:3306/mydb
+    
 my:
  globalProperty: Global Propery Default Value
