@@ -11,7 +11,4 @@ app:
   db:
     host: localhost
     user: postgres
-    password: postgres
-    
-my:
- globalProperty: Global Propery Default Value
+    password: postgres  
