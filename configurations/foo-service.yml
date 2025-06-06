@@ -2,6 +2,3 @@ foo:
   title: This is Foo Microservice at the DEFAULT env
   db:
     url: "jdbc:postgresql://${app.db.host}:5432/foo-db"
-
-my:
-  property: Hello from default config of foo-service!
