@@ -1,2 +1,2 @@
-my:
-  property: Hello from prod config of foo-service!
+foo:
+  title: This is Foo Microservice at the PRODUCTION env
