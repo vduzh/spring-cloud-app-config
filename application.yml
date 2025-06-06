@@ -9,7 +9,9 @@ app:
   title: This is Spring Cloud Application at the DEFAULT env
   timeout: 5000
   db:
-    url: jdbc:mysql://common-db:3306/mydb
+    host: localhost
+    user: postgres
+    password: postgres
     
 my:
  globalProperty: Global Propery Default Value
