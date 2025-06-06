@@ -1,2 +1,4 @@
-my:
-  property: Hello from dev config of foo-service!
+foo:
+  title: This is Foo Microservice at the DEVELOPMENT env
+  db:
+    url: "jdbc:postgresql://${app.db.host}:5432/foo-db"
