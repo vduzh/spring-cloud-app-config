@@ -12,3 +12,9 @@ app:
     host: localhost
     user: postgres
     password: postgres  
+
+server:
+  error:
+    # добавляем текст ошибки в Response
+    include-message: always
+
