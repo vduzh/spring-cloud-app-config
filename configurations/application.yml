@@ -6,6 +6,7 @@
 # - и т.д.
 
 app:
+  source: github
   title: This is Spring Cloud Application at the DEFAULT env
   timeout: 5000
   db:
