@@ -5,15 +5,15 @@ foo:
 
 scheduler:
   rabbitmq:
-    initialDelay: 15000
-    fixedDelay: 20000
+    initialDelay: 7000
+    fixedDelay: 7000
   kafka:
-    initialDelay: 10000
-    fixedDelay: 15000
+    initialDelay: 5000
+    fixedDelay: 5000
 
 
 stream:
   rabbitmq:
-    intervalSeconds: 20
+    intervalSeconds: 6
   kafka:
-    intervalSeconds: 15
+    intervalSeconds: 4
